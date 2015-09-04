@@ -1,0 +1,72 @@
+<html><!--Dagnija Kaulina-Brante 13114310-->
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Welcome to paranormal!</title>
+        <link rel="stylesheet" href="HauntedHouse.css">
+         <script type="text/javascript">
+      var XMLHttpRequestObject = false;
+      if (window.XMLHttpRequest) {
+        XMLHttpRequestObject = new XMLHttpRequest();
+      } else if (window.ActiveXObject) {
+        XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
+      }
+
+      function getData(datasource, divID) {
+       if (XMLHttpRequestObject) {
+         var obj = document.getElementById(divID);
+         XMLHttpRequestObject.open("GET", datasource);
+         XMLHttpRequestObject.onreadystatechange = function()
+         {
+            if (XMLHttpRequestObject.readyState == 4 
+                && XMLHttpRequestObject.status == 200) {
+                var body = document.getElementsByTagName('body');
+                
+                // remove if exists
+                if (document.getElementById(divID)){
+                    body[0].removeChild(document.getElementById(divID));
+                }
+                var targetDiv2 = document.createElement('div');
+                targetDiv2.id = divID;
+                targetDiv2.innerHTML = XMLHttpRequestObject.responseText;
+                body[0].appendChild(targetDiv2);
+                }
+         }
+         XMLHttpRequestObject.send(null);
+       }
+     }
+    </script>
+      
+    </head>
+        <body>
+            <div id="banner" >
+                            <img src="img/banner.jpg" id="bannerimg"  onmouseover = "getImage('img/skelly.gif', 'targetDiv2')"><h1>PARANORMAL</h1>
+            </div>
+            <div id="navigation">
+                <table id="table">
+                    <tr>
+                        <td onmouseover = "getData('textFiles/WelcomeText.txt', 'targetDiv2')" ><a href="main.html"><h2>Home</h2></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td onmouseover="getData('textFiles/HauntedHouse.txt','targetDiv2')" onmouseout="getData('textFiles/DLeave.txt','targetDiv2')"><a href="ParanormalHousesServlet">
+                        <h2>Haunted House</h2>
+                        </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td onmouseover="getData('textFiles/Entities.txt','targetDiv2')" onmouseout="getData('textFiles/DLeave.txt','targetDiv2')">
+                        <a href="ParanormalEntitiesServlet">
+                        <h2>Entities</h2></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td onmouseover="getData('textFiles/Phenomena.txt','targetDiv2')" onmouseout="getData('textFiles/DLeave.txt','targetDiv2')">
+                            <a href="ParanormalPhenomenaServlet"><h2>Phenomena</h2></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="targetDiv2"></div>  
+        </body>
+</html>
+           

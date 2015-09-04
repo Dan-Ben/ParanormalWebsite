@@ -1,0 +1,101 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="HHouse">
+    <xs:annotation>
+      <xs:documentation>Dagnija Kaulina-Brante 13114310</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="navigation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="main" maxOccurs="4" minOccurs="1">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="id" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="house" maxOccurs="10" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="image" maxOccurs="2" minOccurs="1">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="id" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="title"><!--restriction for title minimum length for title is 5 and maximum length is 50-->
+			  <xs:simpleType>
+					<xs:restriction base="xs:string" >
+							  <xs:minLength value="5"/>
+								<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+                </xs:element>
+              <xs:element type="xs:string" name="address"/>
+              <xs:element name="buildDate">
+				<xs:simpleType>
+					<xs:restriction base="xs:gYear" ><!--restriction for year propertys not older than 1000 and not younger 2014-->
+							  <xs:minInclusive value="1000"/>
+							  <xs:maxInclusive value="2014"/>
+					</xs:restriction>
+				</xs:simpleType>
+                </xs:element>
+              <xs:element type="xs:string" name="ownerThen"/>
+              <xs:element type="xs:string" name="ownerNow"/>
+			  <xs:element name="activity">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="asince"/>
+                    <xs:element type="xs:string" name="aHappen"/>
+                    <xs:element type="xs:string" name="pananormal"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="openForPublic">
+				<xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="code">
+					  <xs:annotation>
+                        <xs:documentation>Information will be possible to updateInformation will be possible to updateInformation will be possible to updateInformation will be possible to updateInformation will be possible to updateInformation will be possible to updateInformation will be possible to updateInformation will be possible to updateInformation will be possible to updateInformation will be possible to update</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:choice maxOccurs="10" minOccurs="0">
+                          <xs:element type="xs:string" name="date">
+                            <xs:annotation>
+                              <xs:documentation>if code one empty closed for public</xs:documentation>
+                            </xs:annotation>
+                          </xs:element>
+                          <xs:element type="xs:string" name="time"/>
+                          <xs:element name="price">
+                            <xs:complexType mixed="true">
+                              <xs:choice maxOccurs="2" minOccurs="0">
+                                <xs:element type="xs:decimal" name="adult"/>
+                                <xs:element type="xs:decimal" name="children"/>
+                              </xs:choice>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="contact"/>
+                        </xs:choice>
+                        <xs:attribute type="xs:integer" name="id" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:integer" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

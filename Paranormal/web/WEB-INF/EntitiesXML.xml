@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Daniel Benhamou x13341086-->
+<Entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EntitiesXSD.xsd">
+/*
+Sources
+http://paranormal.about.com/od/othercreatures/a/10-creatures.htm
+http://www.cryptozoology.com/cryptids/thunderbird.php
+http://www.irelandseye.com/animation/explorer/banshee.html
+http://paranormal.about.com/od/ghosthuntinggeninfo/f/what-poltergeist.htm
+http://www.viewzone.com/zeta.html
+*/
+
+	<navigation>
+		<main id="home">Home</main>
+		<main id="house">Haunted House</main>
+		<main id="entities">Entities</main>
+		<main id="phenomena">Phenomena</main>
+	</navigation>
+		
+		
+	<Entity id="1">
+		<name>Ghosts</name>
+                <image id="thumbnail">img/ghostT.jpg</image>
+		<image id="fullpic">img/Ghost.jpg</image>
+			<information>
+				<history>The belief in ghosts is worldwide and goes back thousands of years.Ghosts are thought to be the spirits of the dead that remain in this world. Another theory is that they are just residual energy from those who have passed on. 
+					
+				</history>
+			<height>N/A</height>
+			<sightings>Worldwide</sightings>
+			</information>
+	</Entity>
+
+	<Entity id="2">
+		<name>Shadow People</name>
+                <image id="thumbnail">img/shadowT.jpg</image>
+		<image id="fullpic">img/Shadow.jpg</image>
+		<information>
+			<history>Shadow people are humanoid figures which appear as a shadowy mass. Psychological and physiological conditions such as sleep paralysis have led people to hallucinate seeing these dark figures. They are often reported to be seen from one's peripheral vision, disappearing once a person turns to take a full look at them. Some experiencers testify that they have even seen eyes, usually red, on these shadow beings.
+The mysterious sightings have become a hot topic of conversion in paranormal chat rooms, message boards and websites, and it is given widespread attention on paranormal talk radio
+			</history>
+			<height>N/A</height>
+			<sightings>Worldwide</sightings>
+		</information>
+	</Entity>
+
+	<Entity id="3">
+		<name>Grey Aliens</name>
+                <image id="thumbnail">img/greyT.jpg</image>
+		<image id="fullpic">img/Grey.jpg</image>
+			<information>
+			<history>Named after their skin color, Many reported alien encounters in the US describe GreyS. The 1941 Roswell incident is one of the many things to popularize the Alien, and the Grey skin appearnce became more well know from science fiction and the Betty and Barney Hill abduction claim from 1961. The exitence and intentions of Greys is up to debate, however claims of encounters with Greys usually are related with abductions.</history>
+			<height>2-4ft</height>
+			<sightings></sightings>
+		</information>
+	</Entity>
+
+	<Entity id="4">
+		<name>Bigfoot</name>
+                <image id="thumbnail">img/bigfootT.jpg</image>
+		<image id="fullpic">img/Bigfoot.jpg</image>
+		<information>
+			<history>These hairy apemen are probably the most consistently witnessed unknown creatures in the world. Whether they are called Bigfoot, Sasquatch, Yeti, Skunk Ape or Yowie, they have been seen in isolated woodlands and mountain areas in virtually every corner of the globe - from the North American northwest to Florida to Australia. Bigfoot is often describe as a large, hairy ape like creature which stands on its two legs.
+				
+	The Bigfoot Field Researchers Organization recently announced its intention to place motion-triggered digital webcams in various areas of US forest where the hairy beast has been seen. This 24-hour surveillance with potentially thousands of computer-based witnesses looking on will dramatically increase the chances of obtaining credible evidence.
+	
+			 </history>
+			<height>7-8ft</height>
+			<sightings>Worldwide, usually woodlands and mountainous areas</sightings>
+		</information>
+	</Entity>
+
+
+	<Entity id="5">
+		<name>Lochness Monster</name>
+                <image id="thumbnail">img/lochnessT.jpg</image>
+		<image id="fullpic">img/Lochness.jpg</image>
+		<information>
+			<history>Despite excellent expeditions with sophisticated electronic equipment, the lake monsters of the world continue to elude scientists. Yet spontaneous sightings by good witnesses, although rare, persist.
+	
+	The Loch Ness monster, or Nessie, is undoubtedly the most well-known of these aquatic mysteries. But other deep, cold lakes around the world have their own legendary beasts: Chessie in Chesapeake Bay, Storsie in Sweden's Lake StorsjÃ¶n, Selma in Norway's Lake Seljordsvatnet and "Champ" in New York's Lake Champlain among others.
+	
+	Descriptions of this creature, too, are amazingly similar. Most sightings report the humps protruding from the surface of the water (which skeptics dismiss as being almost anything, from schools of fish to floating logs), but occasionally a lucky witness will see the creature stretch its neck high above the water and look around a bit before submerging.
+	
+	Photo and video evidence is rare. And although some of the photos are tantalizing (most notably the famous "flipper" photo taken by the Rines expedition in 1975), most such "proof" is fuzzy or inconclusive at best.
+	
+	If the creature does exist, many researchers suspect that it could be a kind of plesiosaur - an animal from the age of the dinosaurs that is thought to have become extinct more than 66 million years ago. Could a lineage of these incredible creatures possibly have survived?</history>
+			<height></height>
+			<sightings></sightings>
+		</information>
+	</Entity>
+
+
+	<Entity id="6">
+		<name>The Thunderbird</name>
+                <image id="thumbnail">img/thunderT.jpg</image>
+		<image id="fullpic">img/Thunderbird.jpg</image>
+		<information>
+			<history>The Comanche tribe call it ba'a' and the Potawatomi use the name chequah, but most people know of this mystery animal as Thunderbird. Although gigantic birds are reported in the past and present from various areas of the globe, the Thunderbird is isolated to North America. Native Americans believed that these giant birds brought thunder and rain with them as they flew through the air by flapping their wings, and lightning by closing their eyes. Nevertheless, the distinction between the stories of the Native Americans and people of today are not too far apart. Modern reports of Thunderbirds arise from various locations in North America, with a large occurrence from Pennsylvania to the Central states. Mark A. Hall, one of the foremost investigators of the Thunderbird story, gives the following description of the avian cryptid drawn from numerous sightings:
+	"The bird is distinguished by its size and lifting capabilities exceeding those of any known bird living today anywhere in the world. Wingspan estimates are necessarily all guesswork. But observers sometimes have had the benefit of a measurable object for comparison or the benefit of time to observe a resting bird. The results most often provide sizes of 15 to 20 feet. The bird at rest or on the ground appears to be four to eight feet tall. Typically the coloring of the birds overall is dark.."
+	 </history>
+			<height>15 FT</height>
+			<sightings>Illinois, Pennsylvania</sightings>
+		</information>
+	</Entity>
+
+	<Entity id="7">
+		<name>Mothman</name>
+                 <image id="thumbnail">img/mothT.jpg</image>
+		<image id="fullpic">img/Mothman.jpg</image>
+		<information>
+			<history>For about 13 months beginning in November, 1966, a series of bizarre sightings took place around the area of Point Pleasant, West Virginia. Aside from a spate of UFO reports and claimed poltergeist activity, several witnesses came forward with descriptions of an astonishing creature that may have been the focal point of all the weird goings-on. As detailed in John Keel's classic book, The Mothman Prophecies, hundreds of witnesses allegedly saw a large, winged humanoid being.
+				
+	Dubbed Mothman by a local newspaperman, the creature seemed to have a peculiar affect on those with whom it came into contact: they began to "channel" information from what Keel called "ultra-terrestrial" entities. Keel himself was affected in this way, receiving "prophecies" from some unknown origin that were, more often than not, oddly less than accurate.
+			</history>
+			<height>7 ft</height>
+			<sightings>West Virginia</sightings>
+		</information>
+	</Entity>
+
+
+	<Entity id="8">
+		<name>Chupacabra</name>
+                <image id="thumbnail">img/chuT.jpg</image>
+		<image id="fullpic">img/Chupacabra.jpg</image>
+		<information>
+			<history>While sightings date back to the 1970s, El Chupacabra - "the goat sucker" - became more well known around the 90's. The sightings started in earnest in 1995 with reports coming out of Puerto Rico of a strange creature that was killing farmers' livestock - chickens, ducks, turkeys, rabbits and, of course, goats - sometimes hundreds of animals in one evening. The farmers, who were familiar with the killing practices of wild dogs and other predators, claimed that the methods of this unknown beast were different. It didn't try to eat the animals it killed, for example; nor did it drag them away to be devoured elsewhere. Instead, the creature killed by draining its victims of blood, usually through small incisions.
+				
+	Toward the end of the '90s, the sightings of Chupacabra began to spread. The creature was blamed for animal killings in Mexico, southern Texas and several South American countries. In May and June of 2000, a rash of incidents took place in Chile, according to certain newspapers there. In fact, some of the most incredible claims yet came out of those sightings: that at least one of the creatures was caught alive by local authorities, then handed over to official agencies of the US government.
+	
+	What is it? Theories abound, including: an unknown but natural species of predator; misidentified known predators; the result of genetic experimentation; an alien. Most serious researchers consider Chupacabra merely folklore, perpetuated by over-enthusiastic locals immersed in superstition or a penchant for telling tall, exaggerated tales.
+			</history>
+			<height></height>
+			<sightings>Puerto Rico, Mexico, Texas</sightings>
+			</information>
+	</Entity>
+
+
+	<Entity id="9">
+		<name>Banshee</name>
+                <image id="thumbnail">img/bansheeT.jpg</image>
+		<image id="fullpic">img/Banshee.jpg</image>
+		<information>
+			<history>The bean-sidhe (woman of the fairy may be an ancestral spirit appointed to forewarn members of certain ancient Irish families of their time of death. According to tradition, the banshee can only cry for five major Irish families: the O'Neills, the O'Briens, the O'Connors, the O'Gradys and the Kavanaghs. Intermarriage has since extended this select list.
+	
+	Whatever her origins, the banshee chiefly appears in one of three guises: a young woman, a stately matron or a raddled old hag. These represent the triple aspects of the Celtic goddess of war and death, namely Badhbh, Macha and Mor-Rioghain.)The Banshee She usually wears either a grey, hooded cloak or the winding sheet or grave robe of the unshriven dead. She may also appear as a washer-woman, and is seen apparently washing the blood stained clothes of those who are about to die. In this guise she is known as the bean-nighe (washing woman).
+	
+	Although not always seen, her mourning call is heard, usually at night when someone is about to die. In 1437, King James I of Scotland was approached by an Irish seeress or banshee who foretold his murder at the instigation of the Earl of Atholl. This is an example of the banshee in human form. There are records of several human banshees or prophetesses attending the great houses of Ireland and the courts of local Irish kings. In some parts of Leinster, she is referred to as the bean chaointe (keening woman) whose wail can be so piercing that it shatters glass. In Kerry, the keen is experienced as a "low, pleasant singing"; in Tyrone as "the sound of two boards being struck together"; and on Rathlin Island as "a thin, screeching sound somewhere between the wail of a woman and the moan of an owl".
+	
+	The banshee may also appear in a variety of other forms, such as that of a hooded crow, stoat, hare and weasel - animals associated in Ireland with witchcraft.</history>
+			<height></height>
+			<sightings>Ireland, Scotland</sightings>
+		</information>
+	</Entity>
+
+
+	<Entity id="10">
+		<name>Poltergeist</name>
+                <image id="thumbnail">img/polterT.jpg</image>
+		<image id="fullpic">img/Poltergeist.jpg</image>
+		<information>
+			<history>"Poltergeist" is a German word meaning "noisy spirit." Current research indicates, however, that poltergeist activity may have nothing to do with ghosts or spirits. Since the activity seems to center around an individual, it is believed that it is caused by the subconscious mind of that individual. It is, in effect, psychokinetic activity. The individual is often under emotional, psychological or physical stress (even going through puberty). Effects can include rappings on walls and floors, the physical movement of objects, effects on lights and other electric appliances - even the manifestation of physical phenomena.</history>
+			<height>NA</height>
+			<sightings>Worldwide</sightings>
+		</information>
+	</Entity>
+
+
+
+
+
+</Entities>

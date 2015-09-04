@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paranorm>
+    <navigation>
+		<main id="home">Home</main>
+		<main id="house">Haunted House</main>
+		<main id="entities">Entities</main>
+		<main id="phenomena">Phenomena</main>
+	</navigation>
+	<phenomena id = "1">
+	<name> Clocks of Sicily </name>
+	<info>
+	<place> Sicily, Italy </place>
+	<history>  In Catania, 
+	suddenly all the electrical clocks have been spinning ahead by 6-20 minutes. 
+	It has been a persistent problem. 
+	A technological group was called in to investigate. 
+	In Canneto di Caronia, they experienced spontaneous combustion of 
+	electrical appliances to the extent that even unplugged fires would break out. 
+	It began in January 2004  </history>
+	</info>
+	</phenomena>	
+		
+	
+
+	<phenomena id = "2">
+	<name> Black eyed people </name>
+	<info>
+	<place> USA </place>
+	<history> tt started in 1998 when journalist Brian Bethel 
+	gave an account of being approached by two boys as he entered his car. 
+	The boys allegedly asked him for a lift. 
+	He described experiencing a sudden feeling of fear and panic,
+	while at the same time having an overwhelming urge to open the door 
+	for the boys. He then noticed their eyes ֠they were entirely coal black,
+	with no whites visible. 
+	Bethel drove away in fear even as the teens became more insistent. </history>
+	</info>
+	</phenomena>	
+	
+	<phenomena id = "2">
+	<name> Fisher's Ghost </name>
+	<info>
+	<place> Australia </place>
+	<history> On a calm June evening in 1826, 
+	Fisher left his house in Campbelltown to run some errands, 
+	never to return.  
+	Four months after Fisher vanished,
+	a local resident stumbled into a Campbelltown hotel, 
+	pale and shaken to his very bones. He told the assorted 
+	audience that he had just encountered the ghost of Frederick Fisher. 
+	The spectral farmer had been sitting on a fence by the road, pointing
+	with his finger at a paddock near the river that ran nearby. 
+	Then, the startled man watched the apparition fade away in front 
+	of his eyes. The man who had seen the ghost was a wealthy and
+	well-respected member of the community, so the police decided 
+	to investigate the paddock the ghost had pointed at. To their shock,
+	they found the body of Frederick Fisher, dead and hidden from view.
+	His murderer was soon found to be one George Worrall, 
+	Fisherӳ neighbor and friend who had been taking care of his legal matters 
+	in the past. Worrall had already raised some eyebrows
+	after Fisherӳ disappearance, as he told everyone that 
+	Fisher had sailed to England and soon started selling
+	the poor farmerӳ belongings. The emergence of the body 
+	soon caused Worrall to confess, and Fisher could finally 
+	rest in peace. </history>
+	</info>
+	</phenomena>	
+		
+	<phenomena id = "4">
+	<name> Hawkesbury mosnter</name>
+	<info>
+	<place> Australia </place>
+	<history> Hawkesbury River, a wide and murky New South Wales estuary,
+	is Australiaӳ answer to Loch Ness. According to 
+	cryptozoology enthusiasts and local historians alike, 
+	there is some evidence that Hawkesbury is inhabited by one or more giant, 
+	water-dwelling monsters. 
+	Eyewitnesses have reported these creatures to be as long as 24 meters 
+	(79 ft) and, much like ԎessieԠof Loch Ness, 
+	the monster is said to resemble an aquatic dinosaur, 
+	most likely a plesiosaur. 
+	Although the Hawkesbury River monster has reportedly 
+	been glimpsed by the locals at least since the 1960s 
+	(and possibly even longer, as Aboriginal legends place 
+	similar creatures in the area), no one has ever been able 
+	to take a photograph of one. If the monster is indeed real,
+	this may change in the future: A particularly enthusiastic 
+	monster hunter called Rex Gilroy is currently on a quest to 
+	catch the creature on film. </history>
+	</info>
+	</phenomena>	
+	
+
+</paranorm>

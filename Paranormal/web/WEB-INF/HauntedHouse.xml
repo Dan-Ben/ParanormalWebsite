@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Dagnija Kaulina-Brante 13114310-->
+<?xml-stylesheet href="ParanormalHouseInclude.xsl" type="text/xsl"?>
+<HHouse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="HauntedHouse.xsd">
+	<navigation>
+		<main id="home">Home</main>
+		<main id="house">Haunted House</main>
+		<main id="entities">Entities</main>
+		<main id="phenomena">Phenomena</main>
+	</navigation>
+	<house id="1">
+                <title>The Lalaurie house</title>
+		<image id="old">img/lalaurieOld.jpg</image>
+		<image id="new">img/lalaurieNew.jpg</image>
+		<address>1140 Royal Street</address>
+		<buildDate>1832</buildDate>
+		<ownerThen>Dr. Louis Lalaurie</ownerThen>
+		<ownerNow>Michael Whalen</ownerNow>
+		<activity>
+			<asince>The stories of ghosts and a haunting began when the Lalaurie carriage fled the house in the darkness.</asince>
+			<aHappen> Madam Lalaurie was torturing slaves by slicing them, ripping off their fingernails, keeping them naked etc...</aHappen>
+			<pananormal>Tenants is hearing  screams of agony coming from the empty house at night, strange noises, cries and groans in the night and soon abandoned the place and strange figures appeared wrapped in shrouds.</pananormal>
+		</activity>
+		<openForPublic><!--Information will be possible to update-->
+			<code id="1">
+				<date></date>
+				<time></time>
+				<price></price>
+				<contact></contact>
+			</code>
+		</openForPublic>
+	</house>
+	<house id="2">
+                <title>Woodlawn house</title>
+		<image id="old">img/woodlawnOld.jpg</image>
+		<image id="new">img/woodlawnNew.jpg</image>
+		<address>Co Galway, Ireland</address>
+		<buildDate>1786</buildDate>
+		<ownerThen>Roderick Trench</ownerThen>
+		<ownerNow></ownerNow>
+		<activity>
+			<asince>1901</asince>
+			<aHappen>Had been reported cases of torching slaves!</aHappen>
+			<pananormal>Had been reported to see a man standing on the roof, the footsteps, crying and screaming.</pananormal>
+		</activity>
+		<openForPublic><!--Information will be possible to update-->
+			<code id="1">
+				<date></date>
+				<time></time>
+				<price></price>
+				<contact></contact>
+			</code>
+		</openForPublic>
+	</house>
+	<house id="3">
+                <title>Joshua Ward House</title>
+		<image id="old">img/joshuawardhouseOld.jpg</image>
+		<image id="new">img/joshuawardhouseNew.jpg</image>
+		<address>148 Washington Street, Salem</address>
+		<buildDate>1784</buildDate>
+		<ownerThen>Sheriff George Corwin</ownerThen>
+		<ownerNow>Robert Murphy</ownerNow>
+		<activity>
+			<asince>1690</asince>
+			<aHappen>Sheriff who was known as 'The Strangler', was torching accused witches during the Salem trials.</aHappen>
+			<pananormal>The spirits of his victims are said to still reside in the house today.</pananormal>
+		</activity>
+		<openForPublic><!--Information will be possible to update-->
+			<code id="2">
+				<date>Open for public by appointment!</date>
+				<time>By appointment!</time>
+				<contact>(303)219-0730</contact>
+				<price>
+					<adult>20</adult>
+					<children>10</children>
+				</price>
+			</code>
+		</openForPublic>
+	</house>
+	<house id="4">
+                <title>The Myrtles plantation</title>
+		<image id="old">img/myrtlesplantationOld.jpg</image>
+		<image id="new">img/myrtlesplantationNew.jpg</image>
+		<address>St. Francisville, Louisiana 70775</address>
+		<buildDate>1796</buildDate>
+		<ownerThen>General David Bradford</ownerThen>
+		<ownerNow>John and Teeta Moss</ownerNow>
+		<activity>
+			<asince>1868</asince>
+			<aHappen>The slave, Chloe, take revenge on family due to her torching and killed 2 of the owner children by poisoning them! As result she was hanged in front yard!</aHappen>
+			<pananormal>Reported to be taken photographs with a slave girl standing between two of the buildings on the plantation or appears to be peering out of the large window</pananormal>
+		</activity>
+		<openForPublic><!--Information will be possible to update-->
+			<code id="2">
+				<date>Monday-Saturday</date>
+				<time>9am-5pm</time>
+				<price>
+					<adult>10.00</adult>
+					<children>7.00</children>
+				</price>
+				<contact>+1 225-635-6277</contact>
+			</code>
+		</openForPublic>
+	</house>
+	<house id="5">
+                <title>Farnsworth House</title>
+		<image id="old">img/farnsworthhouseOld.jpg</image>
+		<image id="new">img/farnsworthhouseNew.jpg</image>
+		<address>401 Baltimore Street Gettysburg</address>
+		<buildDate>1810</buildDate>
+		<ownerThen>Reverend Alexander Dobbins</ownerThen>
+		<ownerNow>Loring and Jean Shultz</ownerNow>
+		<activity>
+			<asince>1972 first report from owners</asince>
+			<aHappen>Farnsworth house was hospital and resting place for some members of the Confederate army.</aHappen>
+			<pananormal>The Shultz family claims that the inn has been haunted by as many as 16 spirits. Paranormal elements that have been reported are things such as the sound of heavy breathing, the smell of cheroot, and the sensation of the mid-wife "tucking" people into bed.</pananormal>
+		</activity>
+		<openForPublic><!--Information will be possible to update-->
+			<code id="2">
+				<date>Open everyday as The Farnsworth House Inn</date>
+				<time>9 am to 10pm</time>
+				<contact>+1 717-334-8838</contact>
+				<price>
+					<adult>50</adult>
+					<children>9</children>
+				</price>
+			</code>
+		</openForPublic>
+	</house>
+	<house id="6">
+                <title>Dock Street Theatre</title>
+		<image id="old">img/docktheatreOld.jpg</image>
+		<image id="new">img/docktheatreNew.jpg</image>
+		<address>135 Church St, Charleston, United States</address>
+		<buildDate>1809</buildDate>
+		<ownerThen>Calder’s </ownerThen>
+		<ownerNow>City of Charleston</ownerNow>
+		<activity>
+			<asince>1884</asince>
+			<aHappen>It is said that Nettie was stationed out on the second floor balcony of the hotel every night, after the wealthy men started avoiding her. One night she was ridiculing someone over the edge of the balcony and the balcony rod was struck by lightning and she was killed instantly.</aHappen>
+			<pananormal>Has been reported that Junius Brutus Booth traveling actor spirit still lives in those perimises. And Nettie Dickerson’s ghost still haunts men at night, and even chases them down hallways.</pananormal>
+		</activity>
+		<openForPublic><!--Information will be possible to update-->
+			<code id="2">
+				<date>Monday-Saturday</date>
+				<time>1pm-5pm</time>
+				<contact>+1 843-577-7183</contact>
+				<price>
+					<adult>48.50</adult>
+					<children>22.50</children>
+				</price>
+			</code>
+		</openForPublic>
+	</house>
+	<house id="7">
+                <title>Ancient Ram Inn</title>
+		<image id="old">img/ancientramOld.jpg</image>
+		<image id="new">img/ancientramNew.jpg</image>
+		<address>Potters Pond Wotton under Edge Stroud, Gloucestershire</address>
+		<buildDate>1145</buildDate>
+		<ownerThen>Priests of the St. Mary Church</ownerThen>
+		<ownerNow>John Humphries</ownerNow>
+		<activity>
+			<asince>1500</asince>
+			<aHappen>Women had been burned on stake believed to be witch! Also had been found unidentified skeleton of child under staircase!</aHappen>
+			<pananormal>A lot of people believe that the woman’s spirit still haunts one of the rooms of the house to this day. Had been claims to have been grabbed by the arm by a demonic force and dragged from the bed across the room.</pananormal>
+		</activity>
+		<openForPublic><!--Information will be possible to update-->
+			<code id="2">
+				<date>Private enquiry by phone!</date>
+				<time>By appointment!</time>
+				<contact>01453 842598</contact>
+				<price></price>
+			</code>
+		</openForPublic>
+	</house>
+	<house id="8">
+                <title>The Waldniel Hoster school</title>
+		<image id="old">img/kentschoolOld.jpg</image>
+		<image id="new">img/kentschoolNew.jpg</image>
+		<address>Schwalmtal, Nordrhein-Westfalen, Germany</address>
+		<buildDate>1913</buildDate>
+		<ownerThen>The Franciscan Order</ownerThen>
+		<ownerNow>By government</ownerNow>
+		<activity>
+			<asince>1935-1937</asince>
+			<aHappen>Said to be haunted by the ghosts of mentally disabled children and young adults that where assaulted, torched and murdered here during the Nazi regime.</aHappen>
+			<pananormal>Often you can hear children screaming and weeping.</pananormal>
+		</activity>
+		<openForPublic><!--Information will be possible to update-->
+			<code id="1">
+			<!--if code one empty closed for public-->
+				<date></date>
+				<time></time>
+				<contact></contact>
+				<price></price>
+			</code>
+		</openForPublic>
+	</house>
+	<house id="9">
+                <title>The Five Fishermen</title>
+		<image id="old">img/fivefishermenOld.jpg</image>
+		<image id="new">img/fivefishermenNew.jpg</image>
+		<address>1740 Argyle Street Halifax</address>
+		<buildDate>1817</buildDate>
+		<ownerThen>St Paul’s Church</ownerThen>
+		<ownerNow>Heather Brown</ownerNow>
+		<activity>
+			<asince>1917</asince>
+			<aHappen>Explosion what claimed two thousand lives around.</aHappen>
+			<pananormal>Odd occurrences as a glass flies off a shelf with no one near, or when cutlery on a table shifts then falls to the floor by itself. Taps that like to turn themselves on and off with no human assistance. Feelings like to have a spirit move through you and hearing voices.</pananormal>
+		</activity>
+		<openForPublic><!--Information will be possible to update-->
+			<code id="2">
+				<date>Monday-Sunday</date>
+				<time>11:30 - 21:00</time>
+				<contact>(902) 422-4421</contact>
+				<price>
+					 <adult>39</adult>
+					 <children>24</children>
+				 </price>
+			</code>
+		</openForPublic>
+	</house>
+	<house id="10">
+                <title>Loftus Hall</title>
+		<image id="old">img/loftushallOld.jpeg</image>
+		<image id="new">img/loftushallNew.jpeg</image>
+		<address>Hook peninsula, County Wexford, Ireland</address>
+		<buildDate>1350</buildDate>
+		<ownerThen>The Redmond family</ownerThen>
+		<ownerNow>The Quigley family</ownerNow>
+		<activity>
+			<asince>1775</asince>
+			<aHappen>Anne fell in love with slave, but her parents did not approve. Parents lock Anne in the Tapestry Chamber, where she eventually died. Skeleton of Anne, was found in chamber, by member of the Ely family. </aHappen>
+			<pananormal>Persistent poltergeist activity! The ghost of a young woman, presumed to be Anne Tottenham, was reported to have made frequent appearances in the Hall!</pananormal>
+		</activity>
+		<openForPublic><!--Information will be possible to update-->
+			<code id="2">
+				<date>Monday-Sunday</date>
+				<time>11:00-18:00</time>
+				<contact>051 397728</contact>
+				<price>
+					<adult>13</adult>
+					<children>8</children>
+				</price>
+			</code>
+		</openForPublic>
+	</house>
+</HHouse>
