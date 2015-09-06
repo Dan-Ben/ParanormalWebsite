@@ -4,6 +4,7 @@ For eXist Database:
 
 PortNumber: 8088
 Server: Glassfish 4.0
+Only Compatible with Exist 1.x
 Database name: Paranormal
 First xml- HauntedHouse.xml stored as HauntedHouse
 Second xml- EntitiesXML.xml stored as EntitiesXML
